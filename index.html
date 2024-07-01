@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="game">
+            <h2 class="">Stone Paper Scissors</h2>
+            <div class="score-board">
+                <p class="computer">Computer: <b id="computer-num"></b></p>
+                <p class="user">User: <b id="user-num"></b></p>
+                <p class="draw">Draw: <b id="draw-num"></b></p>
+            </div>
+            <div class="images">
+                <div id="rock" class="icon-div"><i
+                        class="fa-regular fa-hand-back-fist icon"></i>
+                </div>
+                <div id="paper" class="icon-div"><i class="fa-regular fa-hand icon"></i></div>
+                <div id="scissors" class="icon-div"><i
+                        class="fa-regular fa-hand-scissors icon"></i>
+                </div>
+            </div>
+            <div class="choices">
+                <p class="user-choice">Your Choice: <b class="us-choice"></b></p>
+                <p class="comp-choice">Computer Choice: <b class="co-choice"></b></p>
+            </div>
+            <div class="msg-shower row">
+                <p class="msg col-12 col-sm-4">Play your move</p>
+                <button class="btn1 col-12 col-sm-3 mt-1">Reset Game</button>
+            </div>
+        </div>  
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
